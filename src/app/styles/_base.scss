@@ -1,0 +1,42 @@
+// ###################################
+// PINBALL MAP - BASE CSS
+// ###################################
+
+
+
+html,
+body {
+	font-size: 13px;
+   line-height: 1.22rem;
+}
+
+html {
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: $grey-background;
+   color: $grey-text;
+   margin-bottom: $header-height;
+   padding-top: 20px;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.hidden-for-accessibility {
+   width: 1px;
+   height: 1px;
+   border: 0;
+   overflow: hidden;
+   margin: -1px;
+   padding: 0;
+   position: absolute;
+   clip: rect(0 0 0 0);
+}
+
+
+
+

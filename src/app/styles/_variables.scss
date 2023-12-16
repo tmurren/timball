@@ -1,0 +1,52 @@
+// ########################################
+// PINBALL MAP - VARIABLES CSS                    
+// ########################################
+
+
+
+// #################### COLORS ####################
+$grey-background: #E5E5E5;
+$grey-background-dark: #b0b0b0;
+$grey-text: #595959;
+$grey-text-dark: #2d2d2d;
+$grey: #909090;
+$blue-on-grey: #1c80ea;
+$blue-on-white: #54a6fd;
+$green-leaf: #7faa7f;
+$green: #4caa78;
+$red: #e65a5a;
+
+
+
+// #################### HEIGHTS ####################
+$header-height: 59px;
+
+
+// #################### MIXINS ####################
+// #################### MIXINS ####################
+@mixin transition($transition) {
+   -webkit-transition: $transition;
+      -moz-transition: $transition;
+       -ms-transition: $transition;
+        -o-transition: $transition;
+           transition: $transition;
+}
+
+@mixin transform($transform) {
+   -webkit-transform: $transform;
+      -moz-transform: $transform;
+       -ms-transform: $transform;
+        -o-transform: $transform;
+           transform: $transform;
+}
+
+@mixin box-shadow($box-shadow) {
+	-webkit-box-shadow: $box-shadow;
+		 -moz-box-shadow: $box-shadow;
+			    box-shadow: $box-shadow;
+}
+
+
+
+
+

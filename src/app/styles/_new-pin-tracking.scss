@@ -1,0 +1,80 @@
+// ########################################
+// PINBALL MAP - NEW PIN TRACKING CSS                    
+// ########################################
+
+
+
+.new-pin-tracking {	
+	.new-pin-tracking__searching,
+	.new-pin-tracking__found {
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+
+		p {
+			margin: 0;
+			display: block;
+			font-size: 13px;
+	   	line-height: 13px;
+		}
+	}
+
+	.new-pin-tracking__searching {
+		opacity: 0.75;
+		margin-bottom: 20px;
+		padding-bottom: 2px;
+	}
+
+	.new-pin-tracking__found {
+		background-color: $green-leaf;
+		color: white;
+		margin-bottom: 20px;
+		padding: 2px 20px 0 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			margin: 0;
+			display: inline-block;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 16px;
+
+			img {
+				margin: -2px 10px 0 0;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	&.new-pin-tracking--found {
+		.new-pin-tracking__searching {
+			display: none;
+		}
+
+		.new-pin-tracking__found {
+			display: block;
+		}
+	}
+}
+
+.machine-tracking-found {
+	color: green;
+	padding-left: 20px !important;
+	position: relative;
+
+	svg {
+		position: absolute;
+		top: 1px;
+		left: 0;
+		font-size: 13px;
+		line-height: 13px;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,137 @@
+// ###################################
+// PINBALL MAP - TYPOGRAPHY CSS
+// ###################################
+
+
+
+%h1-styling,
+%h2-styling,
+%h3-styling {
+   font-weight: 700;
+}
+
+%h1-styling {
+	border-bottom: 1px solid $grey-background;
+	margin: 0 0 15px 0;
+	padding: 0 0 12px 0;
+	font-size: 1.44rem;
+}
+
+%h2-styling {
+	margin: 0 0 6px 0;
+	font-size: 1.2rem;
+}
+
+%h3-styling {
+   margin: 0 0 4px 0;
+	font-size: 1rem;
+}
+
+h1 {
+   @extend %h1-styling;
+}
+
+h2 {
+   @extend %h2-styling;
+}
+
+h3 {
+   @extend %h3-styling;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   &.h1-styling {
+      @extend %h1-styling;
+   }
+
+   &.h2-styling {
+      @extend %h2-styling;
+   }
+
+   &.h3-styling {
+      @extend %h3-styling;
+   }
+}
+
+a {
+	color: $blue-on-white;
+
+	&.back {
+		color: $blue-on-grey;
+		margin: 0 0 20px 7px;
+		display: inline-block;
+		text-decoration: none;
+
+		svg {
+			width: 11px;
+			height: 11px;
+			margin: -2px 2px 0 0;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+ul {
+	margin: 0 0 15px 0;
+	padding: 0;
+	list-style-type: none;
+
+	li {
+		margin-bottom: 5px;
+		padding-left: 13px;
+		display: block;
+		position: relative;
+
+		&:before {
+			width: 4px;
+			height: 4px;
+			background-color: $grey-background-dark;
+			border-radius: 2px;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 5px;
+			content: '';
+		}
+
+		li {
+			&:before {
+				background-color: white;
+				border: 1px solid $grey-background-dark;
+			}
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&.unlisted {
+		& > li {
+			padding: 0;
+
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	&.inline {
+		& > li {
+			display: inline-block;
+		}
+	}
+}
+
+
+
+
+

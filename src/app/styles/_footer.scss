@@ -1,0 +1,36 @@
+// ###################################
+// PINBALL MAP - FOOTER CSS
+// ###################################
+
+
+
+footer {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+
+	p {
+		margin: 0;
+		display: inline-block;
+	}
+
+	a {
+		color: $blue-on-grey;
+	}
+}
+
+p.refresh-notice {
+	width: 100%;
+	margin: 0 0 20px 0;
+	display: block;
+	text-align: center;
+
+	a {
+		color: $blue-on-grey;
+	}
+}
+
+
+
+
+

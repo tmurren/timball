@@ -1,0 +1,46 @@
+// ########################################
+// PINBALL MAP - TABLE CSS                    
+// ########################################
+
+
+
+table {
+	border-left: 1px solid $grey-background;
+	margin: 10px 0;
+
+	th,
+	td {
+		padding: 3px 8px;
+		font-size: 0.8rem;
+		vertical-align: top;
+	}
+
+	th {
+		background-color: $grey-background;
+		border-right: 1px solid white;
+
+		&:last-child {
+			border-right: none;
+		}
+	}
+
+	td {
+		border-right: 1px solid $grey-background;
+		border-bottom: 1px solid $grey-background;
+	}
+}
+
+@media (min-width: 768px) {
+	table {
+		th,
+		td {
+			padding: 5px 10px;
+			font-size: 1rem;
+		}
+	}
+}
+
+
+
+
+

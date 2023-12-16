@@ -1,0 +1,44 @@
+// ########################################
+// PINBALL MAP - IFPA EVENTS CSS                    
+// ########################################
+
+
+
+.ifpa-event-item {
+	width: 100%;
+	margin: 0 0 5px 0;
+
+	ul.unlisted.inline {
+		margin: 0;
+		
+		li {
+			margin: 0 20px 10px 0;
+			position: relative;
+
+			&:after {
+				width: 4px;
+				height: 4px;
+				background-color: $grey-background-dark;
+				border-radius: 999999px;
+				display: block;
+				position: absolute;
+				top: 5px;
+				right: -13px;
+				content: '';
+			}
+
+			&:last-child {
+				margin-right: 0;
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
