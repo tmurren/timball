@@ -1,0 +1,9 @@
+{
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/pin-notes/page": "app/pin-notes/page.js",
+  "/activity/page": "app/activity/page.js",
+  "/locations/page": "app/locations/page.js",
+  "/pin-notes/venom/page": "app/pin-notes/venom/page.js"
+}

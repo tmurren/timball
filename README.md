@@ -1,6 +1,6 @@
 # timball
 
-One-stop-shop site for competative pinball players to keep track of local happenings.
+One-stop-shop site for competitive pinball players to keep track of local happenings.
 
 - View their IFPA world rating/ranking
 - Stay informed of local tournament calendar
