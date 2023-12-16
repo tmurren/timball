@@ -1,9 +1,19 @@
 {
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/pin-notes/page": "app/pin-notes/page.js",
+  "/_not-found": "app/_not-found.js",
   "/activity/page": "app/activity/page.js",
   "/locations/page": "app/locations/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/pin-notes/avengers/page": "app/pin-notes/avengers/page.js",
+  "/pin-notes/foo-fighters/page": "app/pin-notes/foo-fighters/page.js",
+  "/pin-notes/bond/page": "app/pin-notes/bond/page.js",
+  "/pin-notes/got/page": "app/pin-notes/got/page.js",
+  "/pin-notes/gnr/page": "app/pin-notes/gnr/page.js",
+  "/pin-notes/hot-wheels/page": "app/pin-notes/hot-wheels/page.js",
+  "/pin-notes/godzilla/page": "app/pin-notes/godzilla/page.js",
+  "/pin-notes/mando/page": "app/pin-notes/mando/page.js",
+  "/pin-notes/rush/page": "app/pin-notes/rush/page.js",
+  "/pin-notes/page": "app/pin-notes/page.js",
+  "/pin-notes/zep/page": "app/pin-notes/zep/page.js",
   "/pin-notes/venom/page": "app/pin-notes/venom/page.js"
 }
